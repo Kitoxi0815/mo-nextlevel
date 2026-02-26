@@ -293,8 +293,35 @@ p {
   border-radius: 0.6rem;
 }
 
+.map-link {
+  display: inline-block;
+  margin-top: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
+
 .instagram-text {
   margin-bottom: 1.2rem;
+}
+
+.instagram-embed {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.instagram-embed iframe {
+  width: 100%;
+  min-height: 480px;
+  border: 0;
+  border-radius: 0.6rem;
+  background: #000;
 }
 
 .site-footer {
