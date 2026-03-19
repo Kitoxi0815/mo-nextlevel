@@ -3,135 +3,290 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mo – Next Level Barbershop | Präzision. Stil. Next Level.</title>
+    <title>Mo – Next Level Barbershop | Barbershop in Seekirchen am Wallersee</title>
     <meta
       name="description"
-      content="Mo – Next Level Barbershop in modernem Ambiente: präzise Schnitte, saubere Fades und Bartstyling auf Top-Niveau. Jetzt Termin sichern."
+      content="Mo – Next Level Barbershop in Seekirchen am Wallersee. Präzise Haarschnitte, saubere Fades, Bartpflege und ehrliche Beratung in hochwertiger Atmosphäre."
     />
     <meta property="og:title" content="Mo – Next Level Barbershop" />
     <meta
       property="og:description"
-      content="Präzision. Stil. Next Level. Moderner Barbershop mit Fokus auf Qualität und Stil."
+      content="Mehr als nur ein Haarschnitt: präzise Arbeit, ehrliche Beratung und Qualität statt Fließband."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:url" content="https://mo-nextlevel.example" />
     <meta
       property="og:image"
       content="https://picsum.photos/1200/630?grayscale&blur=1"
     />
-    <meta property="og:locale" content="de_AT" />
-    <link rel="preconnect" href="https://picsum.photos" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <!-- Sticky Navigation -->
+    <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+
     <header class="site-header" id="home">
       <nav class="nav container" aria-label="Hauptnavigation">
-        <a class="brand" href="#home">Mo – Next Level</a>
-        <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-list">
+        <a class="brand" href="#home" aria-label="Mo – Next Level Barbershop Startseite">
+          <span class="brand-mark">Mo</span>
+          <span class="brand-copy">Next Level Barbershop</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Menü öffnen"
+          aria-expanded="false"
+          aria-controls="nav-list"
+          type="button"
+        >
           <span></span><span></span><span></span>
         </button>
+
         <ul class="nav-list" id="nav-list">
           <li><a href="#home">Home</a></li>
+          <li><a href="#about">Über uns</a></li>
           <li><a href="#leistungen">Leistungen</a></li>
           <li><a href="#preise">Preise</a></li>
           <li><a href="#galerie">Galerie</a></li>
           <li><a href="#standort">Standort</a></li>
           <li><a href="#instagram">Instagram</a></li>
+          <li><a class="nav-cta" href="https://wa.me/436601234567?text=Hallo%20Mo,%20ich%20würde%20gerne%20einen%20Termin%20vereinbaren." target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <!-- Hero -->
+    <main id="main-content">
       <section class="hero section" aria-label="Hero Bereich">
         <div class="hero-overlay"></div>
         <img
           src="https://picsum.photos/1920/1080?grayscale"
-          alt="Stimmungsvolles Barbershop Ambiente"
+          alt="Mo – Next Level Barbershop mit dunklem, modernem Ambiente"
           class="hero-bg"
           loading="eager"
           decoding="async"
         />
+
         <div class="hero-content container">
           <p class="eyebrow">Mo – Next Level Barbershop</p>
-          <h1>Präzision. Stil. Next Level.</h1>
-          <p>
-            Dein moderner Barbershop für exakte Schnitte, saubere Konturen und einen Look,
-            der bleibt.
+          <!-- Personalisierter Hero-Text für glaubwürdigeren, handwerklichen Ton -->
+          <h1>Mehr als nur ein Haarschnitt.</h1>
+          <p class="hero-text">
+            Bei Mo bekommst du keinen schnellen Standardschnitt, sondern saubere Arbeit mit Stil.
+            Hier geht es um Präzision, Handwerk und Details, die man sieht.
           </p>
-          <a class="btn btn-primary" href="tel:+430000000000">Jetzt Termin vereinbaren</a>
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/436601234567?text=Hallo%20Mo,%20ich%20würde%20gerne%20einen%20Termin%20vereinbaren."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Termin per WhatsApp vereinbaren"
+            >
+              Termin per WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="tel:+436601234567" aria-label="Mo telefonisch kontaktieren">
+              +43 660 1234567
+            </a>
+          </div>
+          <ul class="hero-points" aria-label="Vorteile von Mo – Next Level Barbershop">
+            <li>Saubere Fades</li>
+            <li>Präzise Bartlinien</li>
+            <li>Ehrliche Beratung</li>
+          </ul>
         </div>
       </section>
 
-      <!-- Leistungen -->
+      <section class="section container intro-section" id="about">
+        <div class="section-head narrow">
+          <p class="eyebrow">Über uns</p>
+          <h2>Qualität statt Massenabfertigung.</h2>
+          <p>
+            Mo nimmt sich Zeit für den Schnitt, für den Bart und für den gesamten Look. Kein hektisches
+            Durchschleusen, sondern ehrliche Arbeit, klare Linien und ein Ergebnis, mit dem du gerne rausgehst.
+          </p>
+        </div>
+
+        <div class="story-grid">
+          <!-- Neue persönliche Section wie gewünscht -->
+          <article class="feature-panel highlight-panel">
+            <p class="eyebrow">Mit Herz bei der Sache</p>
+            <h3>Jeder Schnitt soll sitzen.</h3>
+            <p>
+              Mo arbeitet sauber, hört zu und schaut auf die Details. Wer im Stuhl sitzt, soll merken,
+              dass hier mit Leidenschaft gearbeitet wird – ohne Fließband, ohne halbe Sachen.
+            </p>
+          </article>
+
+          <article class="feature-panel">
+            <p class="eyebrow">Philosophie</p>
+            <h3>Beratung, Präzision, Stil.</h3>
+            <p>
+              Ob klassisch, modern oder markant: Der Look muss zu dir passen. Deshalb beginnt ein guter
+              Termin nicht mit der Maschine, sondern mit echter Beratung und einem Blick fürs Gesamtbild.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section class="section container" id="leistungen">
         <div class="section-head">
           <p class="eyebrow">Leistungen</p>
-          <h2>Was wir auf Next Level bringen</h2>
+          <h2>Saubere Arbeit für Kopf, Bart und Gesamtlook.</h2>
+          <p>
+            Alles, was du bei einem starken Barbershop erwartest – präzise umgesetzt und ohne unnötiges Gerede.
+          </p>
         </div>
+
         <div class="cards-grid">
-          <article class="card"><h3>Haarschnitt</h3><p>Präzise auf deinen Stil abgestimmt.</p></article>
-          <article class="card"><h3>Skin Fade</h3><p>Saubere Übergänge mit maximaler Detailarbeit.</p></article>
-          <article class="card"><h3>Bart Styling</h3><p>Definition, Symmetrie und ein klarer Ausdruck.</p></article>
-          <article class="card"><h3>Komplettpaket</h3><p>Cut + Bart + Finish für den vollständigen Look.</p></article>
-          <article class="card"><h3>Rasur mit Messer</h3><p>Klassisch, präzise und angenehm gepflegt.</p></article>
-          <article class="card"><h3>Beratung</h3><p>Individueller Style-Check für deinen Typ.</p></article>
+          <article class="card">
+            <h3>Haarschnitt</h3>
+            <p>Sauber geschnitten, auf deinen Stil abgestimmt und mit einem Finish, das auch nach Tagen noch sitzt.</p>
+          </article>
+          <article class="card">
+            <h3>Skin Fade</h3>
+            <p>Weiche Übergänge, klare Konturen und maximale Präzision bis ins letzte Detail.</p>
+          </article>
+          <article class="card">
+            <h3>Bart Styling</h3>
+            <p>Linien, Form und Balance – damit dein Bart nicht nur gepflegt aussieht, sondern Charakter bekommt.</p>
+          </article>
+          <article class="card">
+            <h3>Rasur</h3>
+            <p>Klassisch, sauber und angenehm. Für ein frisches Gefühl und ein gepflegtes Gesamtbild.</p>
+          </article>
+          <article class="card">
+            <h3>Färben</h3>
+            <p>Wenn Farbe, dann ordentlich. Sauber gearbeitet und passend zu deinem Look.</p>
+          </article>
+          <article class="card">
+            <h3>Beratung</h3>
+            <p>Ehrlich, direkt und auf dich abgestimmt – damit du nicht irgendeinen Schnitt bekommst, sondern den richtigen.</p>
+          </article>
         </div>
       </section>
 
-      <!-- Preise -->
       <section class="section container" id="preise">
         <div class="section-head">
           <p class="eyebrow">Preise</p>
-          <h2>Klare Leistungen. Klare Preise.</h2>
+          <h2>Klare Leistungen. Echte Preise.</h2>
+          <p>
+            Transparent, sauber aufgebaut und inklusive 20 % MwSt. – damit du sofort weißt, was dich erwartet.
+          </p>
         </div>
-        <div class="price-list" role="table" aria-label="Preisliste">
-          <div class="price-row" role="row"><span role="cell">Haarschnitt</span><strong role="cell">28 €</strong></div>
-          <div class="price-row" role="row"><span role="cell">Bart</span><strong role="cell">18 €</strong></div>
-          <div class="price-row" role="row"><span role="cell">Kombi</span><strong role="cell">40 €</strong></div>
+
+        <!-- Preisbereich vollständig mit echten Preisen aktualisiert -->
+        <div class="pricing-layout" aria-label="Preisliste von Mo – Next Level Barbershop">
+          <section class="pricing-card" aria-labelledby="preise-herren">
+            <div class="pricing-card-head">
+              <h3 id="preise-herren">Herren</h3>
+              <span>inkl. 20 % MwSt.</span>
+            </div>
+            <div class="price-list" role="list">
+              <div class="price-row" role="listitem"><span>Haarschnitt / Trocken</span><strong>23 €</strong></div>
+              <div class="price-row" role="listitem"><span>Haarschnitt / Waschen / Föhnen</span><strong>29 €</strong></div>
+              <div class="price-row" role="listitem"><span>Haarschnitt / Muster-Einritzung</span><strong>22 €</strong></div>
+              <div class="price-row" role="listitem"><span>Haare färben</span><strong>52 €</strong></div>
+              <div class="price-row" role="listitem"><span>Model Bartrasur</span><strong>17 €</strong></div>
+              <div class="price-row" role="listitem"><span>Bartrasur</span><strong>15 €</strong></div>
+              <div class="price-row" role="listitem"><span>Augenbrauen zupfen</span><strong>10 €</strong></div>
+              <div class="price-row" role="listitem"><span>Haarschnitt / Waschen / Föhnen / Rasur / Stylen</span><strong>42 €</strong></div>
+              <div class="price-row" role="listitem"><span>Ohren &amp; Nasen Haare entfernen</span><strong>10 €</strong></div>
+              <div class="price-row" role="listitem"><span>Waxing</span><strong>10 €</strong></div>
+              <div class="price-row" role="listitem"><span>Maske</span><strong>10 €</strong></div>
+            </div>
+          </section>
+
+          <section class="pricing-card" aria-labelledby="preise-kinder">
+            <div class="pricing-card-head">
+              <h3 id="preise-kinder">Kinder bis 10 Jahre</h3>
+              <span>inkl. 20 % MwSt.</span>
+            </div>
+            <div class="price-list" role="list">
+              <div class="price-row" role="listitem"><span>Haarschnitt</span><strong>15 €</strong></div>
+              <div class="price-row" role="listitem"><span>Haarschnitt / Waschen / Föhnen</span><strong>20 €</strong></div>
+            </div>
+          </section>
         </div>
       </section>
 
-      <!-- Galerie -->
       <section class="section container" id="galerie">
         <div class="section-head">
           <p class="eyebrow">Galerie</p>
-          <h2>Looks & Details</h2>
+          <h2>Ein paar Eindrücke aus dem Shop.</h2>
+          <p>Atmosphäre, Details und Styles, die zeigen, worum es bei Next Level geht.</p>
         </div>
-        <div class="gallery-grid">
-          <img src="https://picsum.photos/500/600?random=11" alt="Frisur Detail 1" loading="lazy" decoding="async" />
-          <img src="https://picsum.photos/500/600?random=12" alt="Frisur Detail 2" loading="lazy" decoding="async" />
-          <img src="https://picsum.photos/500/600?random=13" alt="Frisur Detail 3" loading="lazy" decoding="async" />
-          <img src="https://picsum.photos/500/600?random=14" alt="Frisur Detail 4" loading="lazy" decoding="async" />
-          <img src="https://picsum.photos/500/600?random=15" alt="Frisur Detail 5" loading="lazy" decoding="async" />
-          <img src="https://picsum.photos/500/600?random=16" alt="Frisur Detail 6" loading="lazy" decoding="async" />
+
+        <div class="gallery-grid" aria-label="Galerie mit Eindrücken aus dem Shop">
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=31" alt="Moderner Fade mit sauberer Kontur" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=32" alt="Bartstyling mit präzisen Linien" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=33" alt="Dunkles Barbershop Interieur mit Spiegeln" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=34" alt="Werkzeug und Details im Barbershop" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=35" alt="Frischer Herrenhaarschnitt im Profil" loading="lazy" decoding="async" />
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://picsum.photos/500/620?random=36" alt="Barbershop Arbeitsplatz mit hochwertigem Setup" loading="lazy" decoding="async" />
+          </figure>
         </div>
       </section>
 
-      <!-- Standort -->
       <section class="section container" id="standort">
         <div class="section-head">
           <p class="eyebrow">Standort</p>
-          <h2>Besuche uns vor Ort</h2>
+          <h2>Mitten in Seekirchen. Komm vorbei.</h2>
+          <p>Schau vorbei und überzeug dich selbst.</p>
         </div>
+
         <div class="location-grid">
-          <div class="location-card">
-            <h3>Adresse</h3>
-            <p>Musterstraße 10<br />1010 Wien<br />Österreich</p>
-            <h3>Öffnungszeiten</h3>
-            <p>Mo–Fr: 09:00 – 19:00<br />Sa: 10:00 – 16:00<br />So: Geschlossen</p>
-          </div>
+          <article class="location-card">
+            <div>
+              <p class="eyebrow">Adresse</p>
+              <h3>Mo – Next Level Barbershop</h3>
+              <p>Hauptstraße 27<br />5201 Seekirchen am Wallersee<br />Österreich</p>
+            </div>
+
+            <div>
+              <p class="eyebrow">Öffnungszeiten</p>
+              <p>
+                Montag bis Freitag: 09:00 – 19:00 Uhr<br />
+                Samstag: 09:00 – 16:00 Uhr<br />
+                Sonntag: Geschlossen
+              </p>
+            </div>
+
+            <div class="location-actions">
+              <a
+                class="btn btn-primary"
+                href="https://wa.me/436601234567?text=Hallo%20Mo,%20ich%20würde%20gerne%20einen%20Termin%20vereinbaren."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Termin per WhatsApp
+              </a>
+              <a class="btn btn-secondary" href="tel:+436601234567">+43 660 1234567</a>
+            </div>
+          </article>
+
           <div class="map-wrap">
+            <!-- Technischer Fix: korrektes responsives Google-Maps-Embed ohne API-Key -->
             <iframe
-              title="Google Maps Standort"
-              src="https://www.google.com/maps?output=embed&q=https%3A%2F%2Fmaps.app.goo.gl%2FK9gXHsKjGC3qr8Cj7"
+              title="Google Maps Karte für Hauptstraße 27, 5201 Seekirchen am Wallersee"
+              src="https://www.google.com/maps?q=Hauptstraße+27,+5201+Seekirchen+am+Wallersee&output=embed"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               allowfullscreen
             ></iframe>
             <a
               class="map-link"
-              href="https://maps.app.goo.gl/K9gXHsKjGC3qr8Cj7"
+              href="https://www.google.com/maps/search/?api=1&query=Hauptstraße+27,+5201+Seekirchen+am+Wallersee"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -141,48 +296,52 @@
         </div>
       </section>
 
-      <!-- Instagram -->
       <section class="section container" id="instagram">
-        <div class="section-head">
-          <p class="eyebrow">Instagram</p>
-          <h2>@mo_nextlevel</h2>
+        <div class="instagram-shell">
+          <div class="section-head narrow">
+            <p class="eyebrow">Instagram</p>
+            <h2>@mo_nextlevel</h2>
+            <p>Mehr Styles, mehr Inspiration, mehr Next Level – direkt auf Instagram.</p>
+          </div>
+
+          <!-- Technischer Fix: kaputtes Instagram-Embed entfernt und durch stylische Section ersetzt -->
+          <div class="instagram-grid" aria-hidden="true">
+            <div class="insta-tile insta-large"></div>
+            <div class="insta-tile"></div>
+            <div class="insta-tile"></div>
+            <div class="insta-tile"></div>
+          </div>
+
+          <a
+            class="btn btn-primary"
+            href="https://instagram.com/mo_nextlevel"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram-Profil von mo_nextlevel öffnen"
+          >
+            Auf Instagram ansehen
+          </a>
         </div>
-        <p class="instagram-text">Mehr Styles, mehr Inspiration, mehr Next Level direkt auf Instagram.</p>
-        <div class="instagram-embed">
-          <iframe
-            title="Instagram Profil von mo_nextlevel"
-            src="https://www.instagram.com/mo_nextlevel?igsh=OXI5ZWVtc2wwZTlq"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-          ></iframe>
-        </div>
-        <a
-          class="btn"
-          href="https://www.instagram.com/mo_nextlevel?igsh=OXI5ZWVtc2wwZTlq"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Auf Instagram ansehen
-        </a>
       </section>
     </main>
 
     <footer class="site-footer section">
       <div class="container footer-grid">
-        <section id="impressum">
-          <h3>Impressum</h3>
+        <section id="impressum" aria-labelledby="impressum-title">
+          <h3 id="impressum-title">Impressum</h3>
           <p>
             Mo – Next Level Barbershop<br />
-            Musterstraße 10, 1010 Wien<br />
-            Telefon: +43 0 00000000<br />
+            Hauptstraße 27, 5201 Seekirchen am Wallersee, Österreich<br />
+            Telefon: +43 660 1234567<br />
             E-Mail: kontakt@mo-nextlevel.at
           </p>
         </section>
-        <section id="datenschutz">
-          <h3>Datenschutz</h3>
+
+        <section id="datenschutz" aria-labelledby="datenschutz-title">
+          <h3 id="datenschutz-title">Datenschutz</h3>
           <p>
-            Wir verarbeiten personenbezogene Daten ausschließlich im Rahmen der gesetzlichen
-            Bestimmungen. Für Details ergänze hier deine vollständige Datenschutzerklärung.
+            Personenbezogene Daten werden nur im notwendigen Rahmen verarbeitet. Für Anfragen und Termine
+            kannst du Mo direkt per WhatsApp oder telefonisch kontaktieren.
           </p>
         </section>
       </div>
@@ -194,6 +353,7 @@
       const toggle = document.querySelector('.nav-toggle');
       const navList = document.querySelector('.nav-list');
       const year = document.querySelector('#year');
+      const navLinks = document.querySelectorAll('.nav-list a');
 
       year.textContent = new Date().getFullYear();
 
@@ -201,11 +361,20 @@
         header.classList.toggle('scrolled', window.scrollY > 24);
       });
 
-      toggle.addEventListener('click', () => {
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', String(!expanded));
-        navList.classList.toggle('open');
-      });
+      if (toggle && navList) {
+        toggle.addEventListener('click', () => {
+          const expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          navList.classList.toggle('open');
+        });
+
+        navLinks.forEach((link) => {
+          link.addEventListener('click', () => {
+            navList.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
     </script>
   </body>
 </html>
